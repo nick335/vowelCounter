@@ -1,0 +1,52 @@
+@import 'config';
+
+
+.header{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 1rem 0;
+
+ h1{
+  font-size: 3rem;
+  @include textColor;
+ }
+}
+
+.main{
+ .input-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  label{
+   margin-right: 0.3rem;
+   font-size: 2rem;
+   @include textColor;
+  }
+  textarea{
+   width: 80vw;
+   padding: 1rem;
+   margin-bottom: 1rem;
+  }
+ }
+ .btn-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  button{
+   padding: 0.7rem 2.3rem;
+   font-size: 1.2rem;
+   cursor: pointer;
+   border: none;
+   outline: none;
+   @include btnHover;
+
+   &:hover{
+    opacity: 0.9;
+   }
+  }
+ }
+}

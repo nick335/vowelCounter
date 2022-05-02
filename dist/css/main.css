@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0;
+}
+
+.header h1 {
+  font-size: 3rem;
+  background: #C6FFDD;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#f7797d), color-stop(#FBD786), to(#C6FFDD));
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.main .input-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .input-area label {
+  margin-right: 0.3rem;
+  font-size: 2rem;
+  background: #C6FFDD;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#f7797d), color-stop(#FBD786), to(#C6FFDD));
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.main .input-area textarea {
+  width: 80vw;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main .btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .btn-div button {
+  padding: 0.7rem 2.3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #C6FFDD;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#f7797d), color-stop(#FBD786), to(#C6FFDD));
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main .btn-div button:hover {
+  opacity: 0.9;
+}
+/*# sourceMappingURL=main.css.map */
